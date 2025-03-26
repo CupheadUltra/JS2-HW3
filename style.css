@@ -1,7 +1,7 @@
 .gallery {
   padding: 20px 0 54px;
   border-top: 2px solid black;
-background-color: #383838;
+  background-color: #383838;
 }
 
 .gallery__title {
@@ -36,6 +36,8 @@ background-color: #383838;
 .gallery__list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
   gap: 18px;
   padding: 0 15px;
   justify-content: center;
@@ -45,7 +47,7 @@ background-color: #383838;
 
 .gallery__item {
   width: 174px;
-background-color: #a95199;
+  background-color: #a95199;
   padding: 8px;
   border-radius: 9px;
 }
@@ -100,7 +102,7 @@ background-color: #a95199;
 body {
   scroll-behavior: smooth;
   font-family: Khula;
-background-color: #383838;
+  background-color: #383838;
 }
 
 img {
@@ -108,6 +110,8 @@ img {
   height: auto;
   line-height: 0;
   display: block;
+  height: 200px;
+  background-color: #f0f0f0;
 }
 
 a {
